@@ -1,0 +1,26 @@
+{
+  "name": "playwrightpom",
+  "version": "1.0.0",
+  "description": "Test Example",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VijaySJ/PlaywrightPOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VijaySJ/PlaywrightPOM/issues"
+  },
+  "homepage": "https://github.com/VijaySJ/PlaywrightPOM#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
