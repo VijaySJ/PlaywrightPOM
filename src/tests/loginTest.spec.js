@@ -1,8 +1,6 @@
-import{test} from "@playwright/test"
-import LoginPage from '../pages/LoginPage';
+import test from "../fixtures/fixture"
 
-test('login the web app', async({page})=>{
-    const loginPage = new LoginPage(page);
+test('login the web app', async({loginPage})=>{
     await loginPage.openUrl();
     await loginPage.login("Admin", "admin123");
 })
