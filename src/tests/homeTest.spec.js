@@ -14,11 +14,11 @@ test('Dashboard text should be visible', async ({ loginPage, homePage }) => {
     { module: 'Performance', header: 'Performance' },
     { module: 'Dashboard', header: 'Dashboard' },
     { module: 'Directory', header: 'Directory' },
-    { module: 'Maintenance', header: 'Maintenance' },
+    { module: 'Maintenance', header: 'Administrator Access' },
     { module: 'Buzz', header: 'Buzz' },
   ];
  for (const item of menuItems) {
     await homePage.navigateToModule(item.module, item.header);
     await homePage.page.waitForTimeout(500);
-  }
+  } 
 });
